@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>D3Times</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <div class="article">                    
+                    <h2>American Health Risks Dashboard - </h2>
+                        
+                    <h3>An interactive visual of trends of health factors across the country.</h3>
+                        
+                    <hr>
+                    
+                       <p> Click on any of the axes to visualize various trends.
+                           <br> Hover over any state to see its' individual standing for each category for your selected view.
+
+                    </p>
+
+                </div>
+                <div id="scatter">
+                </div>
+                <!-- We append our chart here. -->
+
+                    <p>
+                        The relationships plotted are those of state-based percentage of population who: 
+                        <ul>
+                            <li>smoke, are obese, lack healthcare, or are considered to be living at or under the poverty line, </ul>
+                        
+                        And also state-based 
+                        
+                        <ul>
+                            <li>median age and household income.</ul>
+
+                                Each state's Median age, household income, and poverty rates are plotted against the smoking, lack of healthcare, and obesity rates.
+                       
+                                <br>
+                                <br>
+
+                            <h4>Key Findings:</h4>
+                        
+                        <ul>
+                            <li>Median household income correlates negatively with each of the risk factors (Obesity, Smoking, and Lack of health care)</li>
+                            <li>Poverty % correlates positvely with each of the risk factors</li>
+                            <li>Median Age is heavily concentrated around 30-45 years</li>
+                        </ul>
+
+                    </p>
+
+            </div>
+        </div>
+        
+                
+
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
