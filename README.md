@@ -18,3 +18,4 @@ Median age, household income, and poverty rates are plotted against the smoking,
 
 
 ### Sample of the dashboard
+![dashboard](https://user-images.githubusercontent.com/74028387/115809915-04392d80-a3bb-11eb-9d92-10dbe481dba9.gif)
